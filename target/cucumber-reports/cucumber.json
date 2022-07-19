@@ -1,0 +1,168 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-07-19T18:11:18.778Z",
+        "line": 2,
+        "name": "Starting PA",
+        "description": "",
+        "id": "browse-to-url;starting-pa",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13175698000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Open Chrome and launch application",
+            "match": {
+              "location": "com.example.Steps.participatingSiteSearchPA.open_chrome_and_launch_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: window was already closed\n  (Session info: chrome\u003d103.0.5060.114)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027NCI-02244014-ML\u0027, ip: \u00272603:9000:8200:1263:0:0:0:17d0%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002712.4\u0027, java.version: \u002718.0.1.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/g_/73xc9f3126z...}, goog:chromeOptions: {debuggerAddress: localhost:51763}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 99efc90d7852e868c3c0ac6c962a3cdb\n*** Element info: {Using\u003did, value\u003dokta-signin-username}\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat com.example.PageObjects.A_LoginPage.setUserName(A_LoginPage.java:21)\n\tat com.example.Steps.participatingSiteSearchPA.i_enter_username_and_password(participatingSiteSearchPA.java:48)\n\tat ✽.I enter Username and password(file:///Users/hildebrandrr/IdeaProjects/CTRP-2584/src/test/resources/features/browseToURL.feature:4)\n",
+              "duration": 3201512000,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "I enter Username and password",
+            "match": {
+              "location": "com.example.Steps.participatingSiteSearchPA.i_enter_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 243000,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "the website opens",
+            "match": {
+              "location": "com.example.Steps.participatingSiteSearchPA.the_website_opens()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 228000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "I click on Protocol Abstraction",
+            "match": {
+              "location": "com.example.Steps.participatingSiteSearchPA.i_click_on_protocol_abstraction()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Browse to URL",
+    "description": "",
+    "id": "browse-to-url",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/browseToURL.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-07-19T18:11:35.244Z",
+        "line": 2,
+        "name": "Selecting Organization",
+        "description": "",
+        "id": "select-and-search-for-organization;selecting-organization",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: window was already closed\n  (Session info: chrome\u003d103.0.5060.114)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027NCI-02244014-ML\u0027, ip: \u00272603:9000:8200:1263:0:0:0:17d0%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002712.4\u0027, java.version: \u002718.0.1.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/g_/73xc9f3126z...}, goog:chromeOptions: {debuggerAddress: localhost:51763}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 99efc90d7852e868c3c0ac6c962a3cdb\n*** Element info: {Using\u003did, value\u003dorganizationSearchMenuOption}\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat com.example.PageObjects.B_OrganizationPage.clickOrganizationsMenu(B_OrganizationPage.java:19)\n\tat com.example.Steps.participatingSiteSearchPA.iClickOnOrganizationsMenuOption(participatingSiteSearchPA.java:76)\n\tat ✽.I click on Organizations menu option(file:///Users/hildebrandrr/IdeaProjects/CTRP-2584/src/test/resources/features/organizations.feature:3)\n",
+              "duration": 36844000,
+              "status": "failed"
+            },
+            "line": 3,
+            "name": "I click on Organizations menu option",
+            "match": {
+              "location": "com.example.Steps.participatingSiteSearchPA.iClickOnOrganizationsMenuOption()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 97000,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "I type OH029 into CTEP ID",
+            "match": {
+              "location": "com.example.Steps.participatingSiteSearchPA.iTypeOHIntoCTEPID()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 92000,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "I select Healthcare Facility from Organization Type",
+            "match": {
+              "location": "com.example.Steps.participatingSiteSearchPA.iSelectHealthcareFacilityFromOrganizationType()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 63000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "I click on Search",
+            "match": {
+              "location": "com.example.Steps.participatingSiteSearchPA.iClickOnSearch()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 58000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "I Assert Case Western Reserve University matches",
+            "match": {
+              "location": "com.example.Steps.participatingSiteSearchPA.iAssertCaseWesternReserveUniversityMatches()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 74000,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "I click on Logout",
+            "match": {
+              "location": "com.example.Steps.participatingSiteSearchPA.iClickOnLogout()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Select and search for organization",
+    "description": "",
+    "id": "select-and-search-for-organization",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/organizations.feature",
+    "tags": []
+  }
+]
